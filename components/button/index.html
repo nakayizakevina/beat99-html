@@ -1,0 +1,11 @@
+<link href="/components/button/button.css" rel="stylesheet" />
+
+<button class="signin-button">Sign in</button>
+
+<script>
+  const currentScript = document.currentScript;
+  const parentElement = currentScript.parentElement;
+  const button = parentElement.querySelector(".signin-button");
+  const label = parentElement.getAttribute("data-label");
+  button.innerHTML = label;
+</script>
