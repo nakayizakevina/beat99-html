@@ -3,3 +3,10 @@ form {
     top: 40%;
     left: 20%;
 }
+
+.goto {
+    padding: 20px;
+}
+.goto button {
+     background-color: red;
+}
